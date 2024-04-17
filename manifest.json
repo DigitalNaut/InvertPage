@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Invert Page",
+  "description": "Invert the page colors.",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "icon-dark-16.png",
+      "32": "icon-dark-32.png"
+    },
+    "default_title": "Invert Page Colors",
+    "show_matches": ["<all_urls>"]
+  },
+  "icons": {
+    "128": "icon-dark-128.png"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
