@@ -12,12 +12,21 @@
   "page_action": {
     "default_icon": {
       "16": "icon-128.svg",
-      "32": "icon-128.svg"
+      "32": "icon-128.svg",
+      "48": "icon-128.svg",
+      "64": "icon-128.svg",
+      "96": "icon-128.svg",
+      "128": "icon-128.svg"
     },
     "default_title": "Invert Page Colors",
     "show_matches": ["<all_urls>"]
   },
   "icons": {
+    "16": "icon-128.svg",
+    "32": "icon-128.svg",
+    "48": "icon-128.svg",
+    "64": "icon-128.svg",
+    "96": "icon-128.svg",
     "128": "icon-128.svg"
   },
   "permissions": ["activeTab", "scripting"]
