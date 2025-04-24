@@ -4,9 +4,9 @@
   "description": "Invert the page colors.",
   "version": "0.0.2",
   "scripts": {
-    "dev": "cd src && web-ext run --firefox=firefoxdeveloperedition --start-url https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour --start-url https://wikipedia.org --start-url https://extensionworkshop.com --start-url about:debugging#/runtime/this-firefox",
-    "build": "cd src && web-ext build --overwrite-dest --artifacts-dir ../artifacts",
-    "lint": "cd src && web-ext lint"
+    "dev": "web-ext run --source-dir src --firefox=firefoxdeveloperedition --start-url https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour --start-url https://wikipedia.org --start-url https://extensionworkshop.com --start-url about:debugging#/runtime/this-firefox",
+    "build": "web-ext build --source-dir src --overwrite-dest --artifacts-dir ../artifacts",
+    "lint": "web-ext lint --source-dir src"
   },
   "dependencies": {
     "web-ext": "^8.5.0"
