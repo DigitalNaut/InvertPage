@@ -12,15 +12,6 @@ function registerPageAction() {
     if (result) {
       console.log("Unexpected result:", result);
     }
-
-    const response = await browser.runtime.sendMessage({
-      action: "runInversion",
-      id,
-    });
-
-    if (response) {
-      console.log("Response:", response);
-    }
   });
 }
 
